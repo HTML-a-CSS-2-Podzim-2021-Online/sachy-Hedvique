@@ -1,0 +1,38 @@
+body {
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+.portret {
+    object-fit: cover;
+    border-radius: 8%;
+}
+
+.řádek-hráčů {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hráči {
+    color: gray;
+}
+
+.profil {
+    overflow: auto;
+}
+
+main {
+    display: grid;
+    background-image: url(obrazky/sachovnice.png);
+    background-position: cover;
+    border: black 7px solid;
+    border-radius: 5px;
+}
