@@ -25,14 +25,12 @@ h2 {
     color: gray;
 }
 
-.profil {
-    overflow: auto;
-}
-
 main {
     display: grid;
-    background-image: url(obrazky/sachovnice.png);
-    background-position: cover;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background: url(obrazky/sachovnice.png) no-repeat;
+    background-size: 100% 100%;
     border: black 7px solid;
     border-radius: 5px;
 }
