@@ -1,5 +1,6 @@
 body {
     max-width: 600px;
+    width: 600px;
     margin: auto;
 }
 
@@ -9,7 +10,27 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    margin: 0%;
+    padding-top: 0.5rem;
+}
+
+.nadpis {
+    text-align: end;
+}
+
+.radek-hracu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+.profil {
+    display: flex;
+}
+
+.adela {
+    flex-direction: row-reverse;
 }
 
 .portret {
@@ -17,13 +38,13 @@ h2 {
     border-radius: 8%;
 }
 
-.řádek-hráčů {
-    display: flex;
-    justify-content: space-between;
+.hráči {
+    color: rgb(48, 45, 45);
+    margin-top: 0;
 }
 
-.hráči {
-    color: gray;
+.predstaveni {
+    margin: 0 0.5rem;
 }
 
 main {
@@ -35,6 +56,7 @@ main {
     aspect-ratio: 1 / 1;
     border: black 7px solid;
     border-radius: 5px;
+    margin: 0.5rem 1rem 0 1rem;
 }
 
 .strelec-cerny {
@@ -96,3 +118,4 @@ button {
     border-radius: 5%;
     font-size: 0.7rem;
 }
+
